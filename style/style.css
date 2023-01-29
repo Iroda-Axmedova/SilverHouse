@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav__logo {
+    margin-top: 50px;
+    margin-bottom: 79px;
+}
+
+.nav__list {
+    list-style: none;
+    margin-bottom: 38px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav__link {
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #8C8A8A;
+}
+
+.section-content {
+    justify-content: space-between;
+    margin-top: 30px;
+    display: flex;
+}
+
+
+.box1 {
+    max-width: 730px;
+    width: 100%;
+    background-color: #F0F0F0;
+    ;
+    padding: 50px 40px 95px;
+
+}
+
+.box2 {
+    max-width: 350px;
+    width: 100%;
+    background-color: #F0F0F0;
+    ;
+    padding: 50px 40px 24px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.box1__title {
+    margin-bottom: 25px;
+    color: #4581B7;
+}
+
+.box1__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #808080;
+}
+
+.box2__title {
+    margin-bottom: 25px;
+    color: #4581B7;
+
+}
+
+.box2__text {
+    margin-bottom: 35px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #808080;
+
+}
+
+.box2__gmail {
+    margin-top: 60px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #808080;
+
+}
+
+.box2__tel {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #808080;
+}
+
+.footer {
+    margin-top: 30px;
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+.footer__amail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+
+.footer__text {
+
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #808080;
+
+
+}
+
+.footer__logo {
+    padding: 15px 0;
+}
+
+.footer__tel {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    color: #808080;
+    padding-right: 5px;
+
+}
